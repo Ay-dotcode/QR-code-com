@@ -31,25 +31,6 @@ main {
     overflow: hidden;
 }
 
-#circle1 {
-    position: absolute;
-    background-color: hsl(216, 100%, 61%);
-    height: 328px;
-    width: 328px;
-    border-radius: 50%;
-    top: -50%;
-    left: -50%;
-}
-
-#circle2 {
-    position: absolute;
-    background-color: hsl(216, 100%, 61%);
-    height: 270px;
-    width: 270px;
-    border-radius: 50%;
-    bottom: -50%;
-    right: -50%;
-}
 
 #qrCode {
     position: relative;
