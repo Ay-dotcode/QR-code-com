@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Outfit, sans-serif;
+    background: hsl(212, 45%, 89%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    min-width: 320px;
+    min-height: 497px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#qrContainer {
+    display: block;
+    position: relative;
+    margin: 16px;
+    border-radius: 10px;
+    width: 288px;
+    height: 288px;
+    background-color: hsl(216, 95%, 58%);
+    overflow: hidden;
+}
+
+#circle1 {
+    position: absolute;
+    background-color: hsl(216, 100%, 61%);
+    height: 328px;
+    width: 328px;
+    border-radius: 50%;
+    top: -50%;
+    left: -50%;
+}
+
+#circle2 {
+    position: absolute;
+    background-color: hsl(216, 100%, 61%);
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+    bottom: -50%;
+    right: -50%;
+}
+
+#qrCode {
+    position: relative;
+    max-width: 100%;
+}
+
+#textArea {
+    width: 288px;
+    height: 129px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 40px;
+    margin-top: 24px;
+    text-align: center;
+    align-content: center;
+}
+
+#textArea h2 {
+    color: hsl(218, 44%, 22%);
+    font-size: 22px;
+}
+
+#h2TextArea {
+    width: 288px;
+    height: 56px;
+    margin-bottom: 16px;
+}
+
+#textArea p {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
+
+#pTextArea {
+    width: 256px;
+    height: 57px;
+    margin: 16px;
+}
